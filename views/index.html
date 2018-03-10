@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Byteball Explorer</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="/styles/app.css?v7">
-	<link rel="icon" href="/img/icon_16x16@2x.png">
+        <title>Bsure Explorer</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/app.css?v7">
+        <link rel="icon" href="http://nzr2ybsda.qnssl.com/images/36386/FvWKo6mqBepEHeacIA30pWX44WF8.png?imageMogr2/strip/thumbnail/160x160%3E/quality/100!/format/png">
+
 </head>
 <body>
 <div id="menu" class="rowFull">
-	<div id="menuSocial">
-		<a href="https://twitter.com/ByteballOrg" target="_blank"><img src="/img/Twitter_Logo_Blue.svg"></a>
-		<a id="menuSocialSlack" href="http://slack.byteball.org/" target="_blank"><img src="/img/Slack_Mark.svg"></a>
-	</div>
-	<div id="menuLeft">
-		<a href="https://byteball.org/" id="menuLeftImg"><img src="/img/logo.png"></a>
-		<div id="menuLeftTitle"><a href="https://byteball.org/">Byteball</a></div>
-		<div id="menuInput">
-			<form action="javascript:searchForm($('#inputSearch').val())" method="post">
-				<input type="text" id="inputSearch" placeholder="Search for unit or address">
-				<input type="submit" value="" id="submitSearch">
-			</form>
-		</div>
-	</div>
+        <div id="menuSocial">
+                <a href="https://twitter.com/BsureFoundation" target="_blank"><img src="/img/Twitter_Logo_Blue.svg"></a>
+                <a id="menuSocialSlack" href="http://bsuregroup.slack.com/" target="_blank"><img src="/img/Slack_Mark.svg"></a>
+        </div>
+        <div id="menuLeft">
+                <a href="https://bsure.vip/" id="menuLeftImg"><img src="http://nzr2ybsda.qnssl.com/images/36386/FvWKo6mqBepEHeacIA30pWX44WF8.png?imageMogr2/strip/thumbnail/300x300%3E/quality/100!/format/png"></a>
+                <div id="menuLeftTitle"><a href="https://www.bsure.vip/">Bsure</a></div>
+                <div id="menuInput">
+                        <form action="javascript:searchForm($('#inputSearch').val())" method="post">
+                                <input type="text" id="inputSearch" placeholder="Search for unit or address">
+                                <input type="submit" value="" id="submitSearch">
+                        </form>
+                </div>
+        </div>
 </div>
 <div id="infoMessage" onclick="hideInfoMessage()">InfoMessage</div>
 <div id="cy"></div>
@@ -121,8 +122,8 @@
 		</table>
 	</div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.17.1/moment.min.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script src="/js/cytoscape.min.js"></script>
 <script src="/js/dagre.min.js"></script>
