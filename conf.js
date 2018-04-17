@@ -19,7 +19,7 @@ exports.initial_witnesses = [
 ];
 
 exports.initial_peers = [
-	'wss://bsure.org/bb'
+	'wss://bsure.vip/bb'
 ];
 
 console.log('finished explorer conf');
