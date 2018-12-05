@@ -19,7 +19,7 @@ exports.initial_witnesses = [
 ];
 
 exports.initial_peers = [
-	'wss://bsure.vip/bb'
+	'wss://hub.dagx.io/bb'
 ];
 
 console.log('finished explorer conf');
